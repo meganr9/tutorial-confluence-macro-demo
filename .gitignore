@@ -1,4 +1,6 @@
 *.iml
-target/
+.classpath/
+.settings/
 .idea/
+target/
 /runlog.txt
