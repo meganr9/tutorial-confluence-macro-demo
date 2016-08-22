@@ -1,28 +1,59 @@
-<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}" plugins-version="2">
-    <plugin-info>
-        <description>${project.description}</description>
-        <version>${project.version}</version>
-        <vendor name="${project.organization.name}" url="${project.organization.url}" />
-        <param name="plugin-icon">images/pluginIcon.png</param>
-        <param name="plugin-logo">images/pluginLogo.png</param>
-    </plugin-info>
+<atlassian-plugin key="${atlassian.plugin.key}" name="${project.name}"
+	plugins-version="2">
+	<plugin-info>
+		<description>${project.description}</description>
+		<version>${project.version}</version>
+		<vendor name="${project.organization.name}" url="${project.organization.url}" />
+		<param name="plugin-icon">images/pluginIcon.png</param>
+		<param name="plugin-logo">images/pluginLogo.png</param>
+	</plugin-info>
 
-    <!-- add our i18n resource -->
-    <resource type="i18n" name="i18n" location="tutorial-confluence-macro-demo"/>
-    
-    <!-- add our web resources -->
-    <web-resource key="tutorial-confluence-macro-demo-resources" name="tutorial-confluence-macro-demo Web Resources">
-        <dependency>com.atlassian.auiplugin:ajs</dependency>
+	<!-- add our i18n resource -->
+	<resource type="i18n" name="i18n" location="tutorial-confluence-macro-demo" />
+	
+	<!-- add our web resources -->
+	<web-resource key="tutorial-confluence-macro-demo-resources"
+		name="tutorial-confluence-macro-demo Web Resources">
+		<dependency>com.atlassian.auiplugin:ajs</dependency>
+<!-- 
+        <resource type="download" name="admin.js" location="/js/admin.js" /> -->
         
-        <resource type="download" name="tutorial-confluence-macro-demo.css" location="/css/tutorial-confluence-macro-demo.css"/>
-        <resource type="download" name="tutorial-confluence-macro-demo.js" location="/js/tutorial-confluence-macro-demo.js"/>
-        <resource type="download" name="images/" location="/images"/>
+		<resource type="download" name="tutorial-confluence-macro-demo.css"
+			location="/css/tutorial-confluence-macro-demo.css" />
+		<resource type="download" name="tutorial-confluence-macro-demo.js"
+			location="/js/tutorial-confluence-macro-demo.js" />
+		<resource type="download" name="images/" location="/images" />
 
-        <context>tutorial-confluence-macro-demo</context>
-    </web-resource>
-    
-  <xhtml-macro name="tutorial-confluence-macro-demo" class="com.example.plugins.tutorial.confluence.ExampleMacro" key="my-macro">
-        <parameters/>
-    </xhtml-macro>
-    
+		<context>tutorial-confluence-macro-demo</context>
+	</web-resource>
+
+
+	<xhtml-macro name="tutorial-confluence-macro-demo"
+		class="com.example.plugins.tutorial.confluence.ExampleMacro" key="my-macro">
+		<parameters />
+	</xhtml-macro>
+
+	<!--  Admin Configuration Menu     -->
+	<!--renders the admin page -->
+	<servlet key="admin-servlet"
+		class="com.example.plugins.tutorial.confluence.adminConfig.AdminServlet">
+		<url-pattern>/xproduct/admin</url-pattern>
+	</servlet>
+    <!--shows the link to the admin page  -->
+    <web-resource name="Admin Web Resources" key="resources">
+        <dependency>com.atlassian.auiplugin:ajs</dependency>
+        <resource type="download" name="admin.js" location="/js/admin.js" />
+        <context>tutorial-confluence-macro-demo-admin</context>
+    </web-resource> 
+	<web-item key="conf-menu-item" name="XProduct Admin"
+		section="system.admin/configuration" weight="10">
+		<description>Link to xproduct-admin page.</description>
+		<label key="xproduct.admin.label" />
+		<link linkId="xproduct-admin-link">/plugins/servlet/xproduct/admin</link>
+	</web-item>
+	<rest key="rest" path="/xproduct-admin" version="1.0.4">
+		<description>Provides REST resources for the admin UI.</description>
+	</rest>
+    <!--  END OF Admin Configuration Menu     -->
+	
 </atlassian-plugin>
