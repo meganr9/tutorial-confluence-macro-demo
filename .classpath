@@ -30,36 +30,6 @@
     </attributes>
   </classpathentry>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE-sources.jar">
-    <attributes>
-      <attribute value="jar:file:/C:/Users/Megan/.m2/repository/org/springframework/spring-context/4.3.2.RELEASE/spring-context-4.3.2.RELEASE-javadoc.jar!/" name="javadoc_location"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE-sources.jar">
-    <attributes>
-      <attribute value="jar:file:/C:/Users/Megan/.m2/repository/org/springframework/spring-aop/4.3.2.RELEASE/spring-aop-4.3.2.RELEASE-javadoc.jar!/" name="javadoc_location"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE-sources.jar">
-    <attributes>
-      <attribute value="jar:file:/C:/Users/Megan/.m2/repository/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE-javadoc.jar!/" name="javadoc_location"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/4.3.2.RELEASE/spring-core-4.3.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-core/4.3.2.RELEASE/spring-core-4.3.2.RELEASE-sources.jar">
-    <attributes>
-      <attribute value="jar:file:/C:/Users/Megan/.m2/repository/org/springframework/spring-core/4.3.2.RELEASE/spring-core-4.3.2.RELEASE-javadoc.jar!/" name="javadoc_location"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar">
-    <attributes>
-      <attribute value="jar:file:/C:/Users/Megan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2-javadoc.jar!/" name="javadoc_location"/>
-    </attributes>
-  </classpathentry>
-  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-expression/4.3.2.RELEASE/spring-expression-4.3.2.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-expression/4.3.2.RELEASE/spring-expression-4.3.2.RELEASE-sources.jar">
-    <attributes>
-      <attribute value="jar:file:/C:/Users/Megan/.m2/repository/org/springframework/spring-expression/4.3.2.RELEASE/spring-expression-4.3.2.RELEASE-javadoc.jar!/" name="javadoc_location"/>
-    </attributes>
-  </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/w3c/jigsaw/jigsaw/2.2.6/jigsaw-2.2.6.jar" sourcepath="M2_REPO/org/w3c/jigsaw/jigsaw/2.2.6/jigsaw-2.2.6-sources.jar">
     <attributes>
       <attribute value="jar:file:/C:/Users/Megan/.m2/repository/org/w3c/jigsaw/jigsaw/2.2.6/jigsaw-2.2.6-javadoc.jar!/" name="javadoc_location"/>
@@ -72,9 +42,14 @@
       <attribute value="jar:file:/C:/Users/Megan/.m2/repository/com/atlassian/sal/sal-api/3.0.5/sal-api-3.0.5-javadoc.jar!/" name="javadoc_location"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="var" path="M2_REPO/com/atlassian/templaterenderer/atlassian-template-renderer-api/1.5.9/atlassian-template-renderer-api-1.5.9.jar">
+  <classpathentry kind="var" path="M2_REPO/com/atlassian/templaterenderer/atlassian-template-renderer-api/2.0.4/atlassian-template-renderer-api-2.0.4.jar" sourcepath="M2_REPO/com/atlassian/templaterenderer/atlassian-template-renderer-api/2.0.4/atlassian-template-renderer-api-2.0.4-sources.jar">
     <attributes>
-      <attribute value="jar:file:/C:/Users/Megan/.m2/repository/com/atlassian/templaterenderer/atlassian-template-renderer-api/1.5.9/atlassian-template-renderer-api-1.5.9-javadoc.jar!/" name="javadoc_location"/>
+      <attribute value="jar:file:/C:/Users/Megan/.m2/repository/com/atlassian/templaterenderer/atlassian-template-renderer-api/2.0.4/atlassian-template-renderer-api-2.0.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar" sourcepath="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Megan/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-javadoc.jar!/" name="javadoc_location"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/2.2.2-atlassian-1/gson-2.2.2-atlassian-1.jar" sourcepath="M2_REPO/com/google/code/gson/gson/2.2.2-atlassian-1/gson-2.2.2-atlassian-1-sources.jar">
@@ -164,11 +139,6 @@
       <attribute value="jar:file:/C:/Users/Megan/.m2/repository/org/slf4j/slf4j-api/1.7.12/slf4j-api-1.7.12-javadoc.jar!/" name="javadoc_location"/>
     </attributes>
   </classpathentry>
-  <classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar" sourcepath="M2_REPO/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-sources.jar">
-    <attributes>
-      <attribute value="jar:file:/C:/Users/Megan/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2-javadoc.jar!/" name="javadoc_location"/>
-    </attributes>
-  </classpathentry>
   <classpathentry kind="var" path="M2_REPO/com/atlassian/crowd/crowd-ldap/2.8.3/crowd-ldap-2.8.3.jar">
     <attributes>
       <attribute value="jar:file:/C:/Users/Megan/.m2/repository/com/atlassian/crowd/crowd-ldap/2.8.3/crowd-ldap-2.8.3-javadoc.jar!/" name="javadoc_location"/>
@@ -207,6 +177,11 @@
   <classpathentry kind="var" path="M2_REPO/org/springframework/security/spring-security-core/3.2.5.RELEASE/spring-security-core-3.2.5.RELEASE.jar" sourcepath="M2_REPO/org/springframework/security/spring-security-core/3.2.5.RELEASE/spring-security-core-3.2.5.RELEASE-sources.jar">
     <attributes>
       <attribute value="jar:file:/C:/Users/Megan/.m2/repository/org/springframework/security/spring-security-core/3.2.5.RELEASE/spring-security-core-3.2.5.RELEASE-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-core/3.2.8.RELEASE/spring-core-3.2.8.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-core/3.2.8.RELEASE/spring-core-3.2.8.RELEASE-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Megan/.m2/repository/org/springframework/spring-core/3.2.8.RELEASE/spring-core-3.2.8.RELEASE-javadoc.jar!/" name="javadoc_location"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/com/atlassian/plugins/atlassian-plugins-core/4.0.9/atlassian-plugins-core-4.0.9.jar" sourcepath="M2_REPO/com/atlassian/plugins/atlassian-plugins-core/4.0.9/atlassian-plugins-core-4.0.9-sources.jar">
@@ -315,6 +290,11 @@
       <attribute value="jar:file:/C:/Users/Megan/.m2/repository/org/springframework/spring-tx/3.2.10.RELEASE/spring-tx-3.2.10.RELEASE-javadoc.jar!/" name="javadoc_location"/>
     </attributes>
   </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-beans/3.2.10.RELEASE/spring-beans-3.2.10.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-beans/3.2.10.RELEASE/spring-beans-3.2.10.RELEASE-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Megan/.m2/repository/org/springframework/spring-beans/3.2.10.RELEASE/spring-beans-3.2.10.RELEASE-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/springframework/data/spring-data-commons/1.6.1.RELEASE/spring-data-commons-1.6.1.RELEASE.jar" sourcepath="M2_REPO/org/springframework/data/spring-data-commons/1.6.1.RELEASE/spring-data-commons-1.6.1.RELEASE-sources.jar">
     <attributes>
       <attribute value="jar:file:/C:/Users/Megan/.m2/repository/org/springframework/data/spring-data-commons/1.6.1.RELEASE/spring-data-commons-1.6.1.RELEASE-javadoc.jar!/" name="javadoc_location"/>
@@ -350,9 +330,10 @@
       <attribute value="jar:file:/C:/Users/Megan/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17-javadoc.jar!/" name="javadoc_location"/>
     </attributes>
   </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-context/2.0.8/spring-context-2.0.8.jar"/>
+  <classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-web/2.0.6/spring-web-2.0.6.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-hibernate2/2.0.6/spring-hibernate2-2.0.6.jar"/>
-  <classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/hibernate/hibernate/2.1.8-atlassian-31/hibernate-2.1.8-atlassian-31.jar" sourcepath="M2_REPO/hibernate/hibernate/2.1.8-atlassian-31/hibernate-2.1.8-atlassian-31-sources.jar">
     <attributes>
       <attribute value="jar:file:/C:/Users/Megan/.m2/repository/hibernate/hibernate/2.1.8-atlassian-31/hibernate-2.1.8-atlassian-31-javadoc.jar!/" name="javadoc_location"/>
@@ -380,6 +361,11 @@
       <attribute value="jar:file:/C:/Users/Megan/.m2/repository/com/atlassian/scheduler/atlassian-scheduler-api/1.6.0/atlassian-scheduler-api-1.6.0-javadoc.jar!/" name="javadoc_location"/>
     </attributes>
   </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4.jar" sourcepath="M2_REPO/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Megan/.m2/repository/commons-logging/commons-logging/1.0.4/commons-logging-1.0.4-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
   <classpathentry kind="var" path="M2_REPO/com/atlassian/crowd/crowd-integration-seraph25/2.8.3/crowd-integration-seraph25-2.8.3.jar">
     <attributes>
       <attribute value="jar:file:/C:/Users/Megan/.m2/repository/com/atlassian/crowd/crowd-integration-seraph25/2.8.3/crowd-integration-seraph25-2.8.3-javadoc.jar!/" name="javadoc_location"/>
@@ -403,6 +389,11 @@
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/opensymphony/oscore/2.2.7-atlassian-1/oscore-2.2.7-atlassian-1.jar" sourcepath="M2_REPO/opensymphony/oscore/2.2.7-atlassian-1/oscore-2.2.7-atlassian-1-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/osuser/osuser/atl.user/osuser-atl.user.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-aop/4.1.7.RELEASE/spring-aop-4.1.7.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-aop/4.1.7.RELEASE/spring-aop-4.1.7.RELEASE-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Megan/.m2/repository/org/springframework/spring-aop/4.1.7.RELEASE/spring-aop-4.1.7.RELEASE-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
   <classpathentry kind="var" path="M2_REPO/net/sf/ldaptemplate/ldaptemplate/1.0.1/ldaptemplate-1.0.1.jar" sourcepath="M2_REPO/net/sf/ldaptemplate/ldaptemplate/1.0.1/ldaptemplate-1.0.1-sources.jar">
     <attributes>
       <attribute value="jar:file:/C:/Users/Megan/.m2/repository/net/sf/ldaptemplate/ldaptemplate/1.0.1/ldaptemplate-1.0.1-javadoc.jar!/" name="javadoc_location"/>
@@ -697,6 +688,11 @@
   <classpathentry kind="var" path="M2_REPO/com/atlassian/plugins/atlassian-plugins-spring/4.0.9/atlassian-plugins-spring-4.0.9.jar" sourcepath="M2_REPO/com/atlassian/plugins/atlassian-plugins-spring/4.0.9/atlassian-plugins-spring-4.0.9-sources.jar">
     <attributes>
       <attribute value="jar:file:/C:/Users/Megan/.m2/repository/com/atlassian/plugins/atlassian-plugins-spring/4.0.9/atlassian-plugins-spring-4.0.9-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring-expression/4.1.7.RELEASE/spring-expression-4.1.7.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-expression/4.1.7.RELEASE/spring-expression-4.1.7.RELEASE-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/C:/Users/Megan/.m2/repository/org/springframework/spring-expression/4.1.7.RELEASE/spring-expression-4.1.7.RELEASE-javadoc.jar!/" name="javadoc_location"/>
     </attributes>
   </classpathentry>
   <classpathentry kind="var" path="M2_REPO/org/springframework/spring-context-support/4.1.7.RELEASE/spring-context-support-4.1.7.RELEASE.jar" sourcepath="M2_REPO/org/springframework/spring-context-support/4.1.7.RELEASE/spring-context-support-4.1.7.RELEASE-sources.jar">
